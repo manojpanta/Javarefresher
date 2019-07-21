@@ -15,8 +15,8 @@ public class StudentDao {
         students = new HashMap<Integer, Student>() {
             {
                 put(1, new Student(1, "luis", "computer Science"));
-                put(2, new Student(2, "manoj", "computer Science"));
-                put(3, new Student(3, "dinesh", "computer Science"));
+                put(2, new Student(2, "manoj", "polytics"));
+                put(3, new Student(3, "dinesh", "financing"));
             }
 
         };
@@ -30,5 +30,17 @@ public class StudentDao {
 
     public void removeStudentById(int id) {
         this.students.remove(id);
+    }
+
+    public void updateStudent(Student student) {
+        Student s = students.get(student.getId());
+        s.setCourse(student.getCourse());
+        s.setName(student.getName());
+
+        students.put(student.getId(), student);
+    }
+
+    public void create(Student student) {
+        students.put(student.getId(), student);
     }
 }

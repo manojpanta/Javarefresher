@@ -3,11 +3,10 @@ package com.manojpanta.Controller;
 import com.manojpanta.Entity.Student;
 import com.manojpanta.Service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 
+import java.awt.*;
 import java.util.Collection;
 
 @RestController
@@ -33,5 +32,15 @@ public class StudentController {
     public String deleteStudentById(@PathVariable("id") int id ) {
         studentService.removeStudentById(id);
         return "this resource has been deleted.";
+    }
+
+    @RequestMapping(method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void updateStudent(@RequestBody Student student) {
+        studentService.updateStudent(student);
+    }
+
+    @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void insertStudent(@RequestBody Student student) {
+        studentService.insertStudent(student);
     }
 }
