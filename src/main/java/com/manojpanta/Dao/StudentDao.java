@@ -4,7 +4,6 @@ import com.manojpanta.Entity.Student;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,9 +13,9 @@ public class StudentDao {
     static {
         students = new HashMap<Integer, Student>() {
             {
-                put(1, new Student(1, "luis", "computer Science"));
-                put(2, new Student(2, "manoj", "polytics"));
-                put(3, new Student(3, "dinesh", "financing"));
+                put(1, new Student(1, "luis", "computer Science", 4));
+                put(2, new Student(2, "manoj", "polytics", 4));
+                put(3, new Student(3, "dinesh", "financing", 4));
             }
 
         };

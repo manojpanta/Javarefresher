@@ -4,11 +4,21 @@ public class Student {
     private int id;
     private String name;
     private String course;
+    private int averageScore;
 
-    public Student(int id, String name, String course) {
+    public Student(int id, String name, String course, int averageScore) {
         this.id = id;
         this.name = name;
         this.course = course;
+        this.averageScore = averageScore;
+    }
+
+    public int getAverageScore() {
+        return averageScore;
+    }
+
+    public void setAverageScore(int averageScore) {
+        this.averageScore = averageScore;
     }
 
     public int getId() {
