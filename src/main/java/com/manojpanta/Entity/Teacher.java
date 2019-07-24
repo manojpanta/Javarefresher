@@ -37,4 +37,8 @@ public class Teacher {
            return 0;
        }
     }
+
+    public int totalStudents() {
+        return students.size();
+    }
 }
