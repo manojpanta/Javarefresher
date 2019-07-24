@@ -51,4 +51,14 @@ public class TeacherTest {
         assertEquals(3, teacher.totalStudents());
     }
 
+    @Test
+    public void ShouldReturnNuberOfStudentsInLoop() {
+        ArrayList students = new ArrayList();
+        for( int i =0;i< 4; i++ ){
+            Student manoj = new Student(1, "manoj", "science", 4);
+            students.add(manoj);
+        }
+        assertEquals(4, students.size());
+    }
+
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cd05dda-4068-474c-bfb5-df045f2a6be5" name="Default Changelist" comment="" />
+    <list default="true" id="6cd05dda-4068-474c-bfb5-df045f2a6be5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="344">
+              <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -328,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.DemonstrateBoolean">
+  <component name="RunManager" selected="JUnit.TeacherTest.ShouldReturnNuberOfStudentsInLoop">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manojpanta.main" />
       <module name="mvcJava" />
@@ -403,7 +405,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherTest.ShouldReturnAllTheStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeacherTest.ShouldReturnNuberOfStudentsInLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvcJava" />
       <extension name="coverage">
         <pattern>
@@ -413,7 +415,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.manojpanta" />
       <option name="MAIN_CLASS_NAME" value="com.manojpanta.TeacherTest" />
-      <option name="METHOD_NAME" value="ShouldReturnAllTheStudents" />
+      <option name="METHOD_NAME" value="ShouldReturnNuberOfStudentsInLoop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -423,17 +425,17 @@
       <item itemvalue="Application.main" />
       <item itemvalue="JUnit.All Test" />
       <item itemvalue="JUnit.TeacherTest" />
-      <item itemvalue="JUnit.TeacherTest.ShouldReturnAllTheStudents" />
       <item itemvalue="JUnit.StudentTest (1)" />
       <item itemvalue="JUnit.StudentTest.DemonstrateBoolean" />
+      <item itemvalue="JUnit.TeacherTest.ShouldReturnNuberOfStudentsInLoop" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TeacherTest.ShouldReturnNuberOfStudentsInLoop" />
         <item itemvalue="JUnit.StudentTest.DemonstrateBoolean" />
         <item itemvalue="JUnit.TeacherTest" />
         <item itemvalue="JUnit.StudentTest (1)" />
         <item itemvalue="Application.main" />
-        <item itemvalue="JUnit.TeacherTest.ShouldReturnAllTheStudents" />
       </list>
     </recent_temporary>
   </component>
@@ -677,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="344">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
