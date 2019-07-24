@@ -1,12 +1,13 @@
 package com.manojpanta.Entity;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class Teacher {
     private String name;
-    private Collection<Student> students;
+    private ArrayList<Student> students;
 
-    public Teacher(String name, Collection<Student> students) {
+    public Teacher(String name, ArrayList<Student> students) {
         this.name = name;
         this.students = students;
     }
@@ -19,11 +20,11 @@ public class Teacher {
         this.name = name;
     }
 
-    public Collection<Student> getStudents() {
+    public ArrayList<Student> getStudents() {
         return students;
     }
 
-    public void setStudents(Collection<Student> students) {
+    public void setStudents(ArrayList<Student> students) {
         this.students = students;
     }
 }

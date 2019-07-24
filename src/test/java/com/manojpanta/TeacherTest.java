@@ -15,12 +15,15 @@ public class TeacherTest {
 
     public void ShouldReturnAllTheStudents() {
         Student manoj = new Student(1, "manoj", "science");
+        Object jack = new Student(2, "jack", "engineering");
+        Object tyler = new Student(3, "tyler", "computer science");
         ArrayList students = new ArrayList();
         students.add(manoj);
+        students.add(jack);
+        students.add(tyler);
         Teacher teacher = new Teacher("manoj", students);
-
         assertEquals("manoj", teacher.getName());
-        assertEquals(1, teacher.getStudents().size());
+        assertEquals(3, teacher.getStudents().size());
     }
 
 }
