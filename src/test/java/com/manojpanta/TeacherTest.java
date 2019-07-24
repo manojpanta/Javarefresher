@@ -67,4 +67,18 @@ public class TeacherTest {
         assertEquals(4, students.size());
     }
 
+    @Test
+    public void demonstrateArrays() {
+        int[] numbers = new int[3];
+        numbers[0] = 3;
+        numbers[1]= 1;
+        numbers[2] = 0;
+
+        for(int number: numbers) {
+            System.out.print("will score" + number);
+        }
+
+
+    }
+
 }
