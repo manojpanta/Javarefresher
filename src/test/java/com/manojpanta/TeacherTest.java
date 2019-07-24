@@ -54,9 +54,15 @@ public class TeacherTest {
     @Test
     public void ShouldReturnNuberOfStudentsInLoop() {
         ArrayList students = new ArrayList();
+        int counter = 0;
         for( int i =0;i< 4; i++ ){
             Student manoj = new Student(1, "manoj", "science", 4);
             students.add(manoj);
+        }
+
+        while(counter < 100) {
+            System.out.print("Still Running");
+            counter ++;
         }
         assertEquals(4, students.size());
     }
