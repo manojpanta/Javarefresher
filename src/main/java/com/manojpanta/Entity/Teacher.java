@@ -27,4 +27,8 @@ public class Teacher {
     public void setStudents(ArrayList<Student> students) {
         this.students = students;
     }
+
+    public int averageScoreOf(Student student) {
+        return student.getAverageScore();
+    }
 }
