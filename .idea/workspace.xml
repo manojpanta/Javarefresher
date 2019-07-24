@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cd05dda-4068-474c-bfb5-df045f2a6be5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6cd05dda-4068-474c-bfb5-df045f2a6be5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            <state relative-caret-position="318">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -453,12 +451,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTest - 2019.07.23 at 19h 48m 05s.xml">
-      <configuration name="AllTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TeacherTest - 2019.07.23 at 19h 49m 26s.xml">
-      <configuration name="TeacherTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentTest_(1) - 2019.07.23 at 19h 49m 33s.xml">
       <configuration name="StudentTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -481,6 +473,12 @@
       <configuration name="StudentTest.DemonstrateBoolean" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StudentTest_DemonstrateBoolean - 2019.07.24 at 15h 48m 44s.xml">
+      <configuration name="StudentTest.DemonstrateBoolean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_DemonstrateBoolean - 2019.07.24 at 15h 52m 23s.xml">
+      <configuration name="StudentTest.DemonstrateBoolean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_DemonstrateBoolean - 2019.07.24 at 15h 53m 55s.xml">
       <configuration name="StudentTest.DemonstrateBoolean" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -506,12 +504,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299363" />
@@ -679,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        <state relative-caret-position="318">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

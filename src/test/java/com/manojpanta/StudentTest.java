@@ -38,13 +38,13 @@ public class StudentTest {
         int j = 4;
         boolean boole = i ==j;
 
-        if(!boole == false) {
+        if(!boole) {
             System.out.print("not manoj");
 
-        }else if (boole == true) {
+        }else if (boole) {
             System.out.print("manoj");
 
-        }else if( friday == true ){
+        }else if(friday){
             System.out.print("manoj for sure");
         }else {
             System.out.print("its Friday");
