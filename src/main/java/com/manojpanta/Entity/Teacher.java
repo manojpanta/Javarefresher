@@ -2,6 +2,8 @@ package com.manojpanta.Entity;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Optional;
+import java.util.OptionalInt;
 
 public class Teacher {
     private String name;
@@ -29,6 +31,10 @@ public class Teacher {
     }
 
     public int averageScoreOf(Student student) {
-        return student.getAverageScore();
+       if (students.contains(student)){
+           return student.getAverageScore();
+       } else {
+           return 0;
+       }
     }
 }

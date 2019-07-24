@@ -31,7 +31,7 @@ public class TeacherTest {
         Object jack = new Student(2, "jack", "engineering", 3);
         Object tyler = new Student(3, "tyler", "computer science", 2);
         ArrayList students = new ArrayList();
-        students.add(manoj);
+//        students.add(manoj);
         students.add(jack);
         students.add(tyler);
         Teacher teacher = new Teacher("manoj", students);
