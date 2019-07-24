@@ -33,16 +33,21 @@ public class StudentTest {
 
     @Test
     public void DemonstrateBoolean() {
-        boolean boole = false;
+        boolean friday = true;
+        int i = 3;
+        int j = 4;
+        boolean boole = i ==j;
 
-        if(boole == false) {
+        if(!boole == false) {
             System.out.print("not manoj");
 
         }else if (boole == true) {
             System.out.print("manoj");
 
-        }else {
+        }else if( friday == true ){
             System.out.print("manoj for sure");
+        }else {
+            System.out.print("its Friday");
         }
 
     }

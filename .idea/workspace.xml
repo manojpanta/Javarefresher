@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="249">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -453,12 +453,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTest - 2019.07.23 at 19h 47m 39s.xml">
-      <configuration name="AllTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest - 2019.07.23 at 19h 47m 57s.xml">
-      <configuration name="AllTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AllTest - 2019.07.23 at 19h 48m 05s.xml">
       <configuration name="AllTest" configurationId="JUnit" />
     </history-entry>
@@ -483,6 +477,12 @@
     <history-entry file="All_Test - 2019.07.23 at 19h 55m 52s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest_DemonstrateBoolean - 2019.07.24 at 15h 42m 57s.xml">
+      <configuration name="StudentTest.DemonstrateBoolean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_DemonstrateBoolean - 2019.07.24 at 15h 48m 44s.xml">
+      <configuration name="StudentTest.DemonstrateBoolean" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,12 +506,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299363" />
@@ -679,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/manojpanta/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="34" />
+        <state relative-caret-position="249">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
