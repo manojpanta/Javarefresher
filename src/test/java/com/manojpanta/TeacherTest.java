@@ -4,6 +4,7 @@ import com.manojpanta.Entity.Student;
 import com.manojpanta.Entity.Teacher;
 import org.junit.Test;
 
+import java.text.BreakIterator;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
@@ -81,6 +82,17 @@ public class TeacherTest {
         for (int i=0;i < numbers.length; i++) {
             System.out.print("should score" + numbers[i] + "\n");
         }
+
+        int[] numbers2 = {1, 2,3, 4};
+        int my_number = 5;
+
+        for( int number: numbers ) {
+            System.out.print(number);
+            my_number ++;
+        }
+
+        System.out.print(" \n My number now becomes " + my_number);
+
     }
 
 }
