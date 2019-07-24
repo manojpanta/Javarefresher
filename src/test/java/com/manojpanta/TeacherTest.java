@@ -75,10 +75,12 @@ public class TeacherTest {
         numbers[2] = 0;
 
         for(int number: numbers) {
-            System.out.print("will score" + number);
+            System.out.print("will score" + number + "\n");
         }
 
-
+        for (int i=0;i < numbers.length; i++) {
+            System.out.print("should score" + numbers[i] + "\n");
+        }
     }
 
 }
