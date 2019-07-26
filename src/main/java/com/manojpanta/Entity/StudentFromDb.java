@@ -8,7 +8,7 @@ public class StudentFromDb {
     @Id
     private Long id;
     private String name;
-    private int finalScore;
+    private int score;
 
     public StudentFromDb() {
 
@@ -30,10 +30,10 @@ public class StudentFromDb {
     }
 
     public int getFinalScore() {
-        return finalScore;
+        return score;
     }
 
     public void setFinalScore(int finalScore) {
-        this.finalScore = finalScore;
+        this.score = finalScore;
     }
 }
