@@ -1,9 +1,6 @@
 package com.manojpanta.Entity;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Optional;
-import java.util.OptionalInt;
 
 public class Teacher {
     private String name;
