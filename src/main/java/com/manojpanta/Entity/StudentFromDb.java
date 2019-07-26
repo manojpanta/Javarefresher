@@ -15,7 +15,6 @@ public class StudentFromDb {
     public StudentFromDb() {
 
     }
-
     public long getId() {
         return id;
     }

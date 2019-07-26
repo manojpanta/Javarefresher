@@ -15,4 +15,8 @@ public class StudentFromDbService {
     public Collection<StudentFromDb> index() {
         return studentFromDbDao.findAll();
     }
+
+    public Object show(long id) {
+        return studentFromDbDao.findById(id);
+    }
 }
