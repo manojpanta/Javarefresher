@@ -19,4 +19,8 @@ public class StudentFromDbService {
     public Object show(long id) {
         return studentFromDbDao.findById(id);
     }
+
+    public StudentFromDb create(StudentFromDb student) {
+        return studentFromDbDao.save(student);
+    }
 }
