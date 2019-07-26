@@ -12,6 +12,10 @@ public class StudentFromDb {
     private String name;
     private int finalScore;
 
+    public StudentFromDb() {
+
+    }
+
     public long getId() {
         return id;
     }
@@ -33,12 +37,6 @@ public class StudentFromDb {
     }
 
     public void setFinalScore(int finalScore) {
-        this.finalScore = finalScore;
-    }
-
-    public StudentFromDb(long id, String name, int finalScore) {
-        this.id = id;
-        this.name = name;
         this.finalScore = finalScore;
     }
 }
